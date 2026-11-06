@@ -1,0 +1,13 @@
+{
+    "name": "shinta/rest-api-perpustakaan",
+    "description": "REST API Perpustakaan menggunakan PHP Modern",
+    "type": "project",
+    "autoload": {
+        "psr-4": {
+            "App\\": "src/"
+        }
+    },
+    "require": {
+        "php": "^8.0"
+    }
+}
