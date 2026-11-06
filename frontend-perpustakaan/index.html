@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Perpustakaan</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link rel="stylesheet" href="css/custom.css">
+</head>
+<body class="bg-slate-100 min-h-screen text-slate-800">
+
+  <header class="bg-blue-600 text-white shadow">
+    <div class="max-w-5xl mx-auto px-4 py-4 flex flex-wrap items-center justify-between gap-3">
+      <h1 class="text-xl font-bold">📚 Perpustakaan</h1>
+      <nav class="flex gap-2 text-sm">
+        <a href="#/dashboard" data-nav="dashboard" class="nav-link">Dashboard</a>
+        <a href="#/books" data-nav="books" class="nav-link">Buku</a>
+        <a href="#/categories" data-nav="categories" class="nav-link">Kategori</a>
+      </nav>
+    </div>
+  </header>
+
+  <main id="app" class="max-w-5xl mx-auto px-4 py-6">
+    <p class="text-slate-500">Memuat aplikasi...</p>
+  </main>
+
+  <div id="toast-container" class="fixed top-4 right-4 z-50 space-y-2"></div>
+  <div id="modal-root"></div>
+
+  <!-- Langkah 17 -->
+  <script src="js/config.js"></script>
+  <script src="js/utils.js"></script>
+  <script src="js/api.js"></script>
+
+  <!-- Langkah 18 -->
+  <script src="js/pages/dashboard.js"></script>
+  <script src="js/pages/books.js"></script>
+
+  <!-- Langkah 19: -->
+  <script src="js/pages/categories.js"></script>
+
+
+  <script src="js/app.js"></script>
+</body>
+</html>
